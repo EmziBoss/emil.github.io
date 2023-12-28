@@ -32,5 +32,8 @@ function generateIdea() {
 function updateDinnerIdea(idea) {
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const currentDay = days[new Date().getDay()];
-    document.getElementById(currentDay).textContent = currentDay + ": " + idea;
+    const dayElement = document.getElementById(currentDay);
+
+    // Only update the span with the dinner idea
+    dayElement.querySelector(".dinner-idea").textContent = idea;
 }
