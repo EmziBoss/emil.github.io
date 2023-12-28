@@ -25,13 +25,26 @@ button:hover {
     background-color: #45a049;
 }
 
-#weekPlan {
-    text-align: left;
+table#weekPlan {
     margin: auto;
-    width: 50%;
+    width: 60%;
+    border-collapse: collapse;
 }
 
-#weekPlan p {
-    font-size: 18px;
-    margin: 5px 0;
+table#weekPlan td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table#weekPlan tr:last-child td {
+    border-bottom: none;
+}
+
+table#weekPlan td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+.dinner-idea {
+    padding-left: 10px;
 }
