@@ -25,7 +25,13 @@ button:hover {
     background-color: #45a049;
 }
 
-p {
-    font-size: 20px;
-    margin-top: 20px;
+#weekPlan {
+    text-align: left;
+    margin: auto;
+    width: 50%;
+}
+
+#weekPlan p {
+    font-size: 18px;
+    margin: 5px 0;
 }
