@@ -50,6 +50,7 @@ function updateDinnerIdea(idea) {
     const currentDayNorwegian = norwegianDays[currentDayIndex];
     
     // Update the span with the dinner idea for the current Norwegian day
-    const dayElement = document.getElementById(currentDayNorwegian).querySelector(".dinner-idea");
-    dayElement.textContent = idea;
+   console.log("Current Day Norwegian:", currentDayNorwegian);
+const dayElement = document.getElementById(currentDayNorwegian).querySelector(".dinner-idea");
+dayElement.textContent = idea;
 }
