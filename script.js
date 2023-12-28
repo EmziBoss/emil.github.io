@@ -4,7 +4,7 @@ function generateIdea() {
     const meat = ["Kyllinglår", "Kyllingvinger", "Kyllingkjøttdeig", "Kyllingfilet", "Svinefilet", "Svinestek", "Svinekjøttdeig", "Svinekoteletter", "Biff", "Oksekjøttdeig", "Grytekjøtt", "Biffstrimler", "Lammekoteletter", "Lammestek", "Lammebiff", "Laks", "Sei"];
     const vegetables = ["Gulrøtter", "Brokkoli", "Blomkål"];
     const pasta = ["Spagetti", "Penne", "Fusilli", "Makaroni", "Tagliatelle", "Nudler", "Orzo", "Linguine", "Fettuccine", "Kokte poteter", "Stekte poteter", "Ovnsbakte poteter", "Potetmos", "Pommes frites", "Hasselbakte poteter", "Fløtegrat", "Ris"];
-    const special = ["Pizza", "Burger", "Sushi", "Taco", "Lasagne"];
+    const special = ["Pizza", "Burger", "Spagetti og kjøttdeig", "Taco"];
 
     if (Math.random() < 0.20) {
         // 20% chance to pick from the special category
