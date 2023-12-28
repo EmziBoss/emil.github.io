@@ -25,10 +25,15 @@ button:hover {
     background-color: #45a049;
 }
 
+#weekNumber {
+    margin-bottom: 20px;
+}
+
 table#weekPlan {
     margin: auto;
-    width: 60%;
+    width: 60%; /* Adjust the width as needed */
     border-collapse: collapse;
+    text-align: left; /* Align text to the left */
 }
 
 table#weekPlan td {
@@ -41,8 +46,8 @@ table#weekPlan tr:last-child td {
 }
 
 table#weekPlan td:first-child {
-    text-align: right;
     font-weight: bold;
+    width: 100px; /* Set a specific width for the day column */
 }
 
 .dinner-idea {
